@@ -52,7 +52,11 @@ export default function ContactForm() {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
-      <button type="submit" className="rounded bg-[#d7343a] px-5 py-2 text-white hover:bg-[#b6282e]">Send</button>
+      <div className="md:col-span-2 flex justify-center">
+        <button type="submit" className="rounded bg-[#d7343a] px-8 py-2 text-white hover:bg-[#b6282e] transition-colors">
+          Send Message
+        </button>
+      </div>
     </form>
   );
 }

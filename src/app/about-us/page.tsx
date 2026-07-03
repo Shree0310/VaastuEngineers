@@ -10,12 +10,13 @@ export default function AboutUs() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-3xl font-bold text-[#2f3033] mb-6">About Us</h1>
-      <div className="relative w-full max-w-3xl aspect-[16/9] mb-8">
+      <div className="relative w-full max-w-4xl mx-auto aspect-[16/9] mb-8 rounded-lg overflow-hidden">
         <Image
-          src="https://ext.same-assets.com/3352166871/2337045538.png"
-          alt="Key milestones"
+          src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&q=80"
+          alt="Industrial construction and engineering"
           fill
-          className="object-contain"
+          className="object-cover"
+          priority
         />
       </div>
       <div className="space-y-5 text-[#2f3033]">

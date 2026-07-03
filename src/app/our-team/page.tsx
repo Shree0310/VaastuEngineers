@@ -3,14 +3,14 @@ import Image from "next/image";
 type Member = { name: string; role: string; img: string };
 
 const members: Member[] = [
-  { name: "VIVEK AGARWAL", role: "DIRECTOR", img: "https://ext.same-assets.com/3352166871/2047434408.jpeg" },
-  { name: "VIKAS RATHORE", role: "SENIOR RCC STRUCTURAL DESIGNER", img: "https://ext.same-assets.com/3352166871/2913470673.jpeg" },
-  { name: "GARIMA SAHU", role: "OFFICE MGMT & STEEL STRUCTURAL", img: "https://ext.same-assets.com/3352166871/4039920057.jpeg" },
-  { name: "GULESHWARI SAHU", role: "RCC STRUCTURAL ENGINEER", img: "https://ext.same-assets.com/3352166871/1482089064.jpeg" },
-  { name: "RAHUL NISHAD", role: "STEEL STRUCTURAL ENGINEER", img: "https://ext.same-assets.com/3352166871/2180640624.jpeg" },
-  { name: "KHILESH KUNJAM", role: "STEEL STRUCTURAL ENGINEER", img: "https://ext.same-assets.com/3352166871/1095439568.jpeg" },
-  { name: "DIPESH RATHORE", role: "RCC STRUCTURAL ENGINEER", img: "https://ext.same-assets.com/3352166871/3627927290.jpeg" },
-  { name: "ATTUL AGARWAL", role: "ARCHITECTURAL DESIGNER", img: "https://ext.same-assets.com/3352166871/2712392463.jpeg" },
+  { name: "VIVEK AGARWAL", role: "DIRECTOR", img: "https://ui-avatars.com/api/?name=Vivek+Agarwal&size=200&background=d7343a&color=fff&bold=true" },
+  { name: "VIKAS RATHORE", role: "SENIOR RCC STRUCTURAL DESIGNER", img: "https://ui-avatars.com/api/?name=Vikas+Rathore&size=200&background=2f3033&color=fff&bold=true" },
+  { name: "GARIMA SAHU", role: "OFFICE MGMT & STEEL STRUCTURAL", img: "https://ui-avatars.com/api/?name=Garima+Sahu&size=200&background=d7343a&color=fff&bold=true" },
+  { name: "GULESHWARI SAHU", role: "RCC STRUCTURAL ENGINEER", img: "https://ui-avatars.com/api/?name=Guleshwari+Sahu&size=200&background=2f3033&color=fff&bold=true" },
+  { name: "RAHUL NISHAD", role: "STEEL STRUCTURAL ENGINEER", img: "https://ui-avatars.com/api/?name=Rahul+Nishad&size=200&background=d7343a&color=fff&bold=true" },
+  { name: "KHILESH KUNJAM", role: "STEEL STRUCTURAL ENGINEER", img: "https://ui-avatars.com/api/?name=Khilesh+Kunjam&size=200&background=2f3033&color=fff&bold=true" },
+  { name: "DIPESH RATHORE", role: "RCC STRUCTURAL ENGINEER", img: "https://ui-avatars.com/api/?name=Dipesh+Rathore&size=200&background=d7343a&color=fff&bold=true" },
+  { name: "ATTUL AGARWAL", role: "ARCHITECTURAL DESIGNER", img: "https://ui-avatars.com/api/?name=Attul+Agarwal&size=200&background=2f3033&color=fff&bold=true" },
 ];
 
 export const metadata = {

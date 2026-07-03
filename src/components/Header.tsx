@@ -7,7 +7,7 @@ export default function Header() {
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" aria-label="Vaastu Group Of Engineers">
           <Image
-            src="https://ext.same-assets.com/3352166871/767852535.png"
+            src="/images/logo.png"
             alt="Vaastu Group Of Engineers logo"
             width={44}
             height={44}

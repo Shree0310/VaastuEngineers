@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -19,20 +19,20 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-[#2f3033]">Reach Us Through</h3>
           <ul className="mt-4 space-y-3 text-sm text-[#2f3033]">
             <li className="flex items-start gap-3">
-              <Image src="https://ext.same-assets.com/3352166871/3670407081.svg" alt="Location" width={22} height={22} />
+              <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0 text-[#d7343a]" />
               <Link href="https://g.co/kgs/TLGAFc9" className="hover:text-[#d7343a]" target="_blank" rel="noopener noreferrer">
                 Kota Gudhyari Road, Infront Of Singapore City, Raipur, Chhattisgarh
               </Link>
             </li>
             <li className="flex items-start gap-3">
-              <Image src="https://ext.same-assets.com/3352166871/3352337814.svg" alt="Phone" width={22} height={22} />
+              <Phone className="w-5 h-5 mt-0.5 flex-shrink-0 text-[#d7343a]" />
               <div className="flex flex-col">
                 <Link href="tel:+91-94792-45129" className="hover:text-[#d7343a]">+91-94792-45129</Link>
                 <Link href="tel:+91-96857-77472" className="hover:text-[#d7343a]">+91-96857-77472</Link>
               </div>
             </li>
             <li className="flex items-start gap-3">
-              <Image src="https://ext.same-assets.com/3352166871/1474254989.svg" alt="Email" width={22} height={22} />
+              <Mail className="w-5 h-5 mt-0.5 flex-shrink-0 text-[#d7343a]" />
               <div className="flex flex-col">
                 <Link href="mailto:vivekagr100@gmail.com" className="hover:text-[#d7343a]">vivekagr100@gmail.com</Link>
               </div>
@@ -41,8 +41,7 @@ export default function Footer() {
         </div>
         <div className="text-sm text-[#2f3033]">
           <p>
-            &copy; 2025 Vaastu Group Of Engineers - Industrial Project Consultant | Powered by {" "}
-            <Link href="http://socidesk.com" className="hover:text-[#d7343a]" target="_blank" rel="noopener noreferrer">Socidesk</Link>
+            &copy; 2025 Vaastu Group Of Engineers - Industrial Project Consultant
           </p>
         </div>
       </div>
